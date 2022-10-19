@@ -1,0 +1,5 @@
+### Find All
+GET http://localhost:3000/api/v1/permission HTTP/1.1
+
+### Find One
+GET http://localhost:3000/api/v1/permission/0 HTTP/1.1

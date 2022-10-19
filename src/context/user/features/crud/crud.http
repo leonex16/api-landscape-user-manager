@@ -1,0 +1,31 @@
+
+### Create
+POST http://localhost:3000/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+  "name": "John Doe 3",
+  "email": "XXXXXXXXXXXX",
+  "password": "encrypt"
+}
+
+### Find All
+GET http://localhost:3000/api/v1/users HTTP/1.1
+
+### Find One
+GET http://localhost:3000/api/v1/users/uuid-1 HTTP/1.1
+
+### Update
+
+PUT http://localhost:3000/api/v1/users/uuid-1 HTTP/1.1
+
+{
+  "name": "John Doe 3",
+  "email": "XXXXXXXXXXXX",
+  "password": "encrypt",
+}
+
+### Remove
+
+DELETE http://localhost:3000/api/v1/users/uuid-1 HTTP/1.1
+

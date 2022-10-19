@@ -1,0 +1,16 @@
+
+### Create
+POST http://localhost:3000/api/v1/access HTTP/1.1
+content-type: application/json
+
+{
+  "email": "XXXXXXXXXXXX",
+  "password": "encrypt",
+  "scope": "AUDITORIA"
+}
+
+### Find All
+GET http://localhost:3000/api/v1/access HTTP/1.1
+
+### Find One
+GET http://localhost:3000/api/v1/access/17e52b19-791c-49be-86a4-b4b37cb9627a HTTP/1.1
